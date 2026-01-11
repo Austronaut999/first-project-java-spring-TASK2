@@ -1,4 +1,4 @@
-package pl.edu.vistula.firstrestapispring.Product.support.exeption;
+package pl.edu.vistula.firstrestapispring.Product.support.exсeption;
 
 import org.springframework.stereotype.Component;
 import pl.edu.vistula.firstrestapispring.Product.api.request.ProductRequest;
