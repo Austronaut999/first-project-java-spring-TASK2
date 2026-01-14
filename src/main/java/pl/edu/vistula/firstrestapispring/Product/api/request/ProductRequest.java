@@ -1,11 +1,14 @@
 package pl.edu.vistula.firstrestapispring.Product.api.request;
 
+import com.fasterxml.jackson.annotation.JsonCreator;
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class ProductRequest {
     private final String name;
-
-    public ProductRequest(String name) {
-        this.name = name;
-    }
+@JsonCreator
+public ProductRequest(@JsonProperty("name") String name) {
+    this.name = name;
+}
     public String getName() {
         return name;
     }

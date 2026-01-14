@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.*;
 import pl.edu.vistula.firstrestapispring.Product.api.request.ProductRequest;
 import pl.edu.vistula.firstrestapispring.Product.api.request.UpdateProductRequest;
 import pl.edu.vistula.firstrestapispring.Product.api.response.ProductResponse;
+import pl.edu.vistula.firstrestapispring.Product.domain.Product;
 import pl.edu.vistula.firstrestapispring.Product.service.ProductService;
 
 import java.util.List;
