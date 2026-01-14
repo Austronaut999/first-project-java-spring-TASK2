@@ -34,13 +34,34 @@ A fully functional REST API application built with Spring Boot for managing prod
 | **PUT** | `/api/v1/products/{id}` | Update product | `{"name": "New Name", "id": 1}` |
 | **DELETE** | `/api/v1/products/{id}` | Delete product | None |
 
-## 🧪 API Testing Results
+## API Screenshots
 
-### 1. Create Product (POST)
-**Request:**
-```json
-{
-    "name": "Noutbuk"
-}
+### Create Product (POST)
 ![POST Request](./screenshots/PostRequest.png)
+
+### Create Product2 (POST2)
+![GET Request2](./screenshots/PostRequest2.png)
+
+### Get All Product (GET)
+![GET All Products](./screenshots/GetRequest.png)
+
+### Update Product (UPD)
+![Update Product](./screenshots/PutUpdate.png)
+
+### Delete Product (DEL)
+![Delete](./screenshots/Delete.png.png)
+
+### Error 404 (ERR)
+![Error](./screenshots/ProductError.png)
+
+### Swagger Ui (SW)
+![SW UI](./screenshots/SwaggerUi.png)
+
+### Swagger Ui Test (SW-Test)
+![SW UI-Test](./screenshots/SwaggerTest.png)
+
+### DatabaseConf (H2)
+![H2 database](./screenshots/H2Database.png)
+
+
 
